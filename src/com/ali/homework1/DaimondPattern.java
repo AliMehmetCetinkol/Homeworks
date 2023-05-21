@@ -1,11 +1,14 @@
 package com.ali.homework1;
-
 import java.util.Scanner;
+/*
+The program that creates the following pattern
+when an n number is entered from the keyboard.
+ */
 
 public class DaimondPattern {
     public static void main(String[] args) {
         int row, i, j, space = 1;
-        System.out.print("Lütfen bir sayı giriniz: ");
+        System.out.print("Enter a number: ");
         Scanner sc = new Scanner(System.in);
         row = sc.nextInt();
         space = row - 1;

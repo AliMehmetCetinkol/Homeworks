@@ -1,7 +1,9 @@
 package com.ali.homework3;
-
 import java.util.Scanner;
-
+/*
+In this method, it tests whether the argument sent is prime, and if the number is prime,
+this time it checks whether the number obtained by adding the digits of the number is prime.
+ */
 public class PrimeX {
     public static void main(String[] args) {
         run();
@@ -10,7 +12,7 @@ public class PrimeX {
     public static void run()
     {
         Scanner kb = new Scanner(System.in);
-        System.out.println("bir sayı giriniz : ");
+        System.out.println("enter a number : ");
         int val = Integer.parseInt(kb.nextLine());
 
         boolean flag = true;

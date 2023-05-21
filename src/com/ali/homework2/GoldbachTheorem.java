@@ -1,6 +1,12 @@
-package com.ali.homework1;
-
+package com.ali.homework2;
 import java.util.Scanner;
+/*
+All even prime numbers greater than 2 can be written as the sum of two prime numbers.
+The program that takes an even number from the keyboard and prints it as the sum of two prime numbers.
+Example;
+Number : 16
+Solution : 11 + 5
+ */
 
 public class GoldbachTheorem {
     public static boolean isPrime(int num){
@@ -14,18 +20,18 @@ public class GoldbachTheorem {
     }
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        System.out.print("bir sayı giriniz : ");
+        System.out.print("Enter a number : ");
         int n = in.nextInt();
 
         if (n <= 2){
-            System.out.println("geçerli sayı giriniz.");
+            System.out.println("Enter a ınvalid number.");
             return;
         }
         if (n % 2 != 0){
-            System.out.println("girdiğiniz sayı tek sayıdır. Lütfen çift sayı giriniz.");
+            System.out.println("This number is odd. Please enter.");
             return;
         }
-        System.out.println("asal toplamları :");
+        System.out.println("Sum of prime number  :");
 
         int a = 3;
         int b = 0;

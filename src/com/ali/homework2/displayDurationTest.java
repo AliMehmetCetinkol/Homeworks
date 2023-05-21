@@ -1,5 +1,8 @@
+/*
+The program that prints the value of the long type it receives
+with its parameter to the screen in minutes and seconds.
+ */
 package com.ali.homework2;
-
 import java.util.Scanner;
 
 public class displayDurationTest {
@@ -11,7 +14,7 @@ class UtilDisplay{
     public static void displayDuration()
     {
         Scanner kb = new Scanner(System.in);
-        System.out.print("Saniyeyi giriniz : ");
+        System.out.print("enter second : ");
         long saniye = Long.parseLong(kb.nextLine());
         Long S = saniye % 60;
         Long H = saniye / 60;

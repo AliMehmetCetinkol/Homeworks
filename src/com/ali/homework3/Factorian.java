@@ -1,5 +1,8 @@
 package com.ali.homework3;
-
+/*
+This program task is to find the factorian numbers.
+A number whose sum of the factorials of its digits is equal to itself.
+ */
 public class Factorian {
     public static void main(String [] args)
     {

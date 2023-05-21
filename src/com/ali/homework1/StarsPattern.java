@@ -1,11 +1,14 @@
 package com.ali.homework1;
-
+/*
+This program is simple ball fall game.
+You can direct the game by entering the height and width variables.
+ */
 public class StarsPattern {
     public static void main(String[] args) {
         java.util.Scanner kb = new java.util.Scanner(System.in);
-        System.out.println("height'i giriniz :");
+        System.out.println("Enter a height :");
         int height = Integer.parseInt(kb.nextLine());
-        System.out.println("width'i giriniz :");
+        System.out.println("Enter awidth :");
         int width = Integer.parseInt(kb.nextLine());
         print(height,width);
     }

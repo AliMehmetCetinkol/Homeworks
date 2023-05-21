@@ -1,5 +1,8 @@
 package com.ali.homework1;
-
+/*
+The program that returns the median of 3 numbers of int type
+that it takes with its parameter.
+ */
 public class ReturnMidValue {
     public static void main(String[] args) {
         CountDigitsTest.run();
@@ -20,14 +23,14 @@ class CountDigitsTest {
     {
         java.util.Scanner kb = new java.util.Scanner(System.in);
         int val;
-        System.out.print("Bir sayı giriniz:");
+        System.out.print("Enter a number:");
 
         while ((val = Integer.parseInt(kb.nextLine())) != 0) {
-            System.out.printf("%d sayısının basamak sayısı:%d%n", val, NumberUtil.reversed(val));
-            System.out.println("Bir sayı giriniz:");
+            System.out.printf("%d number of digit :%d%n", val, NumberUtil.reversed(val));
+            System.out.println("enter a number:");
         }
 
-        System.out.printf("0 sayısının basamak sayısı:%d%n", NumberUtil.reversed(0));
-        System.out.println("Tekrar yapıyor musunuz?");
+        System.out.printf("0 number of digit :%d%n", NumberUtil.reversed(0));
+
     }
 }

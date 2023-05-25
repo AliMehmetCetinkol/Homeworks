@@ -6,7 +6,7 @@ The digit root of a number is the number obtained by adding all its digits.
 Adding digits continues until a single digit number is obtained.
  */
 public class DigitalRoot {
-    public static void main(String[] args) {
+    public static void run() {
         Scanner kb = new Scanner(System.in);
         System.out.println("enter a number : ");
         int num = Integer.parseInt(kb.nextLine());

@@ -4,7 +4,7 @@ The program that returns the median of 3 numbers of int type
 that it takes with its parameter.
  */
 public class ReturnMidValue {
-    public static void main(String[] args) {
+    public static void run() {
         CountDigitsTest.run();
     }
 }

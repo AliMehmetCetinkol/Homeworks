@@ -5,5 +5,16 @@
 - Homework4 : SumMaxMinAvg
 - Homework5 : SumFactor and enumbers
 - Homework6 : Craps Game
+# How to work
+If you want to run those homeworks you must call run methods from inside of the class. Then you should run main class. 
+```
+package com.ali.app;
 
+public class App {
+    public static void main(String[] args) {
+        <Class name>.run();
+    }
+}
+
+```
 

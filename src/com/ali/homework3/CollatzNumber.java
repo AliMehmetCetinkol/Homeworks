@@ -5,7 +5,7 @@ The program that finds whether an int number that
 it takes with its parameter is a collatz series.
  */
 public class CollatzNumber {
-    public static void main(String[] args) {
+    public static void run() {
 
         Scanner kb = new Scanner(System.in);
         System.out.println("Collatz numbers : ");

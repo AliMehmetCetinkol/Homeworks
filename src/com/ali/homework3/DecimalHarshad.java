@@ -6,7 +6,7 @@ its parameter is a Harshad number in the 10 system.
  */
 
 public class DecimalHarshad {
-    public static void main(String[] args) {
+    public static void run) {
         CallUtil.isDecimalHarshad();
     }
 }

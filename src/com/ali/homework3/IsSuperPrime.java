@@ -4,7 +4,7 @@ This program finds super prime numbers.
 Super prime numbers are both prime numbers and index numbers are prime numbers.
  */
 public class IsSuperPrime {
-    public static void main(String [] args)
+    public static void run()
     {
         IsSuperPrimeTest.run();
     }

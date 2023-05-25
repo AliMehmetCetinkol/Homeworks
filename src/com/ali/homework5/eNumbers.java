@@ -3,7 +3,7 @@ package com.ali.homework5;
 import java.util.Scanner;
 
 public class eNumbers {
-    public static void main(String[] args) {
+    public static void run() {
         Scanner kb = new Scanner(System.in);
         System.out.print("please enter value of e :");
         int e = Integer.parseInt(kb.nextLine());

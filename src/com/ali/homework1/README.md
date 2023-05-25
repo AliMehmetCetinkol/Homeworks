@@ -7,4 +7,17 @@ that it takes with its parameter.
 You can direct the game by entering the height and width variables.
 
 ***You can run the program on any operating system and any java compiler to run the program. 
-Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***
+Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***<br>
+Example :
+```
+package com.ali.app;
+
+public class App {
+    public static void main(String[] args) {
+        DamiondPatter.run();
+        ReturnMidValue.run();
+        StarsPattern.run();
+    }
+}
+```
+

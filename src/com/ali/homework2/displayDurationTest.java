@@ -6,7 +6,7 @@ package com.ali.homework2;
 import java.util.Scanner;
 
 public class displayDurationTest {
-    public static void main(String[] args){
+    public static void run(){
         UtilDisplay.displayDuration();
     }
 }

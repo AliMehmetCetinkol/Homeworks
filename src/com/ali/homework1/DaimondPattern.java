@@ -6,7 +6,7 @@ when an n number is entered from the keyboard.
  */
 
 public class DaimondPattern {
-    public static void main(String[] args) {
+    public static void run() {
         int row, i, j, space = 1;
         System.out.print("Enter a number: ");
         Scanner sc = new Scanner(System.in);

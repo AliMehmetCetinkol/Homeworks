@@ -8,4 +8,16 @@ Number : 16<br>
 Solution : 11 + 5<br>
 
 ***You can run the program on any operating system and any java compiler to run the program. 
-Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***
+Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***<br>
+
+```
+package com.ali.app;
+
+public class App {
+    public static void main(String[] args) {
+        GoldbachTheorem.run();
+        displayDurationTest.tun();
+    }
+}
+
+```

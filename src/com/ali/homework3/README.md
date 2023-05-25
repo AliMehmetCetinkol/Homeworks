@@ -14,4 +14,19 @@ Super prime numbers are both prime numbers and index numbers are prime numbers.
 this time it checks whether the number obtained by adding the digits of the number is prime.
 
 ***You can run the program on any operating system and any java compiler to run the program.
-Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***
+Then we need to run the program. For this, you can call it as a method inside the main class or anywhere else.***<br>
+```
+package com.ali.app;
+
+public class App {
+    public static void main(String[] args) {
+        CollaztNumber.run();
+        DecimalHarshad.run();
+        DigitalRoot.run();
+        Factorian.run();
+        IsSuperPrime.run();
+        PrimeX.run();
+    }
+}
+
+```

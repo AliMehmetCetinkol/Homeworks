@@ -5,3 +5,13 @@
   Max : 56<br>
   Min : 4<br>
   Avg : 12.2<br>
+  
+  ```
+  package com.ali.app;
+  
+  public class App {
+    public static void main(String[] args) {
+        SumMaxMinAvg.run();
+    }
+}
+  ```

@@ -3,7 +3,7 @@ package com.ali.homework4;
 import java.util.Scanner;
 
 public class SumMaxMinAvg {
-    public static void main(String[] args) {
+    public static void run() {
         UtilS.run();
     }
 }

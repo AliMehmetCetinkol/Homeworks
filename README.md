@@ -8,6 +8,9 @@
 - Homework7 : BingoBag and printRandomDate
 - Homework8 : changeCaseTest, pyramidWord and squeezeTest
 - Homework9 : masterMind and secondMax
+- Homework10 : findMod, isPossible and LockDoor
+- Homework11 : Central Limit Theorem
+- Homework12 : NumToText and standardDeviation
 
 # How to work
 If you want to run those homeworks you must call run methods from inside of the class. Then you should run main class. 

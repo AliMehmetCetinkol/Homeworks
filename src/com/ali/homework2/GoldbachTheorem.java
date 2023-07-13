@@ -1,5 +1,7 @@
 package com.ali.homework2;
 import java.util.Scanner;
+
+import static com.ali.util.NumberUtil.isPrime;
 /*
 All even prime numbers greater than 2 can be written as the sum of two prime numbers.
 The program that takes an even number from the keyboard and prints it as the sum of two prime numbers.
@@ -9,15 +11,7 @@ Solution : 11 + 5
  */
 
 public class GoldbachTheorem {
-    public static boolean isPrime(int num){
-        int count = 0;
-        for (int i = 1; i <= num; i++){
-            if (num % i == 0) {
-                count++;
-            }
-        }
-        return count == 2;
-    }
+
     public static void run(){
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a number : ");

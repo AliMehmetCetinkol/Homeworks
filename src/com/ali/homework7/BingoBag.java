@@ -1,5 +1,7 @@
 package com.ali.homework7;
 
+import static com.ali.util.NumberUtil.isPrime;
+
 public class BingoBag {
     public static void run() {
         java.util.Random r = new java.util.Random();
@@ -20,7 +22,7 @@ public class BingoBag {
         }else{
             System.out.printf("%d 150 den büyük kaybetti.%n",sum);
         }
-        if(UtilBingo.isPrime(sum)){
+        if(isPrime(sum)){
             System.out.printf("%d sayı asal oyuncu kazandı%n",sum);
         }else {
             System.out.printf("%d sayı asal değil kaybetti.%n", sum);
@@ -30,26 +32,6 @@ public class BingoBag {
         }else{
             System.out.printf("%d sayısı büyük ve küçük sayının farkına eşit değildir oyuncu kaybetti%n",mid);
         }
-    }
-}
-class UtilBingo{
-    public static boolean isPrime(int a)
-    {
-        if(a <= 1)
-            return false;
-        if(a % 2 == 0)
-            return a == 2;
-        if(a % 3 == 0)
-            return a == 3;
-        if(a % 5 == 0)
-            return a == 5;
-        if(a % 7 == 0)
-            return a == 7;
-        for(long i = 11; i * i <= a; i += 2)
-            if(a % i == 0)
-                return false;
-        return true;
-
     }
 }
 

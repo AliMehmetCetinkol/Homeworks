@@ -2,6 +2,8 @@ package com.ali.homework9;
 
 import java.util.Scanner;
 
+import static com.ali.util.ArrayUtil.bubbleSort;
+
 public class secondMax {
     public static void run()
     {
@@ -14,21 +16,8 @@ public class secondMax {
             System.out.println("dizinin elemanları : ");
             arr[i] = Integer.parseInt(kb.nextLine());
         }
-        sort(arr);
+        bubbleSort(arr);
         result = arr[arr.length-2];
         System.out.printf("arr[result] %d",result);
-    }
-    public static void sort(int [] a) {
-        for (int i = 0; i < a.length; i++) {
-            for (int j = i + 1; j < a.length; j++) {
-                int tmp = 0;
-                if (a[i] > a[j]) {
-                    tmp = a[i];
-                    a[i] = a[j];
-                    a[j] = tmp;
-                }
-            }
-        }
-
     }
 }

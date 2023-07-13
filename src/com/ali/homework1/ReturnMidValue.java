@@ -1,4 +1,7 @@
 package com.ali.homework1;
+
+import com.ali.util.NumberUtil;
+
 /*
 The program that returns the median of 3 numbers of int type
 that it takes with its parameter.
@@ -8,16 +11,7 @@ public class ReturnMidValue {
         CountDigitsTest.run();
     }
 }
-class NumberUtil{
-    public static int reversed(int val){
-        int reverse=0;
 
-        while(val != 0){
-
-        }
-        return reverse;
-    }
-}
 class CountDigitsTest {
     public static void run()
     {
